@@ -31,6 +31,16 @@ main{
 }
 
 /* Media Queries*/
+@media  (max-width: 992px) {
+    .lightbulb_container {
+    width: 150px;
+    height: 150px;
+    }
+    .lightbulb {
+        border:3px solid red;
+    }
+}
+
 @media  (max-width: 768px) {
     .lightbulb_container {
     width: 80px;
